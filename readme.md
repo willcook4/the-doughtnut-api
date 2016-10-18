@@ -20,4 +20,4 @@ You can:
 
 It's stored in memory and hosted on Heroku, which means that it'll _act_ like it persists in a response, without actually changing anything. So if you POST a new doughnut, it'll respond with details of that doughnut as if it succeeded, but if you do a GET request on the index, it won't be there. Which is actually pretty great when we've got a handful of students working off the same endpoints.
 
-Try it! https://www.doughnuts.ga
+Try it! https://ga-doughnuts.herokuapp.com/
