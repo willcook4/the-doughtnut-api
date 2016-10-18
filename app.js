@@ -1,13 +1,13 @@
-var jsonServer = require('json-server');
-var clone = require('clone');
-var data = require('./doughnuts.json');
+const jsonServer = require('json-server');
+const clone = require('clone');
+let data = require('./doughnuts.json');
 
-var port = process.env.PORT || 3000;
+let port = process.env.PORT || 3000;
 
-var app = jsonServer.create();
-var router = jsonServer.router(clone(data));
+let app = jsonServer.create();
+let router = jsonServer.router(clone(data));
 
-app.all('*', function(req, res, next) {
+app.all('*', (req, res, next) => {
     router.db.object = clone(data);
     next();
 });
@@ -15,6 +15,6 @@ app.all('*', function(req, res, next) {
 app.use(jsonServer.defaults);
 app.use(router);
 
-app.listen(port, function() {
-    console.log('Doughnuts listening on http://localhost:' + port);
+app.listen(port, () => {
+    console.log(`Listening on ${port} for Doughnuts`);
 });
