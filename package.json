@@ -10,10 +10,10 @@
   "author": "Micah Rich(originally) and updated by Will Cook",
   "license": "ISC",
   "dependencies": {
-    "clone": "^1.0.2",
+    "clone": "^2.0.0",
     "json-server": "^0.7.25"
   },
   "engines": {
-    "node": "6.6.0"
+    "node": "6.8.0"
   }
 }
