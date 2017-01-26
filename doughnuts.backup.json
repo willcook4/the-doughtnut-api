@@ -3,47 +3,47 @@
     {
       "id": 1,
       "style": "Old Fashioned",
-      "flavor": "Chocolate"
+      "flavour": "Chocolate"
     },
     {
       "id": 2,
       "style": "Cake",
-      "flavor": "Coconut"
+      "flavour": "Coconut"
     },
     {
       "id": 3,
       "style": "Yeast",
-      "flavor": "Frosted"
+      "flavour": "Frosted"
     },
     {
       "id": 4,
       "style": "Glazed",
-      "flavor": "Plain"
+      "flavour": "Plain"
     },
     {
       "id": 5,
       "style": "Cruller",
-      "flavor": "Plain"
+      "flavour": "Plain"
     },
     {
       "id": 6,
       "style": "French Cruller",
-      "flavor": "Strawberry"
+      "flavour": "Strawberry"
     },
     {
       "id": 7,
       "style": "Jelly",
-      "flavor": "Raspberry"
+      "flavour": "Raspberry"
     },
     {
       "id": 8,
       "style": "Cream",
-      "flavor": "Boston Creme"
+      "flavour": "Boston Creme"
     },
     {
       "id": 9,
       "style": "Fritter",
-      "flavor": "Apple"
+      "flavour": "Apple"
     }
   ]
 }

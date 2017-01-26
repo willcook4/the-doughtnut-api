@@ -2,6 +2,10 @@
   "name": "doughnuts-api",
   "version": "1.0.0",
   "description": "a simple example API for doughnuts",
+  "repository" : {
+   "type" : "git",
+   "url" : "https://github.com/willcook4/the-doughtnut-api.git"
+ },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -14,6 +18,6 @@
     "json-server": "^0.7.25"
   },
   "engines": {
-    "node": "6.8.0"
+    "node": "6.9.4"
   }
 }
