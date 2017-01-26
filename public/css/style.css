@@ -77,3 +77,13 @@ footer {
 footer p {
   text-align: center;
 }
+
+.address-link {
+  font-weight: bold;
+  display: block;
+}
+
+.not-a-new-line {
+  display: inline;
+  font-weight: normal;
+}
